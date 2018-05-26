@@ -6,5 +6,7 @@ public class Ability
     public String Description;
     public int score;
     public int modifier;
+    public int upgradeScore;
+    public int upgradeModifier;
 
 }

@@ -1,6 +1,6 @@
 package com.olsonusa.TaToR.core;
 
-public class Entity
+public class Character
 {
     private Ability[] AbilityScores;
     private CharacterClass[] EntityClass;
@@ -8,5 +8,9 @@ public class Entity
     private PointsMeasure HitPoints;
     private PointsMeasure ResolvePoints;
     private String Alignment;
+    private CharacterSkill[] Skills;
+    private CharacterRace Race;
+    private CharacterTheme Theme;
+    
 
 }
